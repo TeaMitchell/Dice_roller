@@ -25,6 +25,8 @@ rollButton.addEventListener('click', function () {
 })
 
 showAll.addEventListener('click', function() {
+    console.log("pressed");
+    
 
     while (i < dieRolls.length) {
         console.log(dieRolls[i]);
